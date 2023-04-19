@@ -10,8 +10,10 @@ public class Main {
         System.out.println("ФИО сотрудника — " + fullName);
 
         // task 2
+        String fullName2 = "Ivanov Ivan Ivanovich";
+        String upFullName = fullName2.toUpperCase();
 
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + lastName.charAt(0) + "." + firstName.charAt(0) + "." + middleName.charAt(0) + ".");
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + upFullName);
 
         //task 3
 
